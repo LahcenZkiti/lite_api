@@ -3,7 +3,7 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div className="max-container padding-container grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 py-[32px] md:py-[56px]">
+    <section className="max-container padding-container grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 py-[32px] md:py-[56px]" data-aos="fade-right">
         {FEATURES.map((feature) => (
           <div key={feature.title}>
             <img className='mb-5' src={feature.icon} alt={feature.title} />
@@ -11,7 +11,7 @@ const Features = () => {
             <p className='regular-14 max-w-[285px]'>{feature.description}</p>
           </div>
         ))}
-    </div>
+    </section>
   )
 }
 

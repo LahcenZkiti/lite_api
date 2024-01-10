@@ -3,10 +3,9 @@
 import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
-import React, { Fragment } from "react";
-import { Menu, Transition } from "@headlessui/react";
-import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/16/solid";
+import React from "react";
 import DropDownMenu from "./DropDownMenu";
+import NavbarMobile from "./NavbarMobile";
 
 const Navbar = () => {
   return (
@@ -37,13 +36,9 @@ const Navbar = () => {
             <button className="btn_outline">Book a demo</button>
             <button className="btn_blue">Sign in</button>
           </div>
-          <Image
-            src="/menu.svg"
-            alt="menu"
-            width={32}
-            height={32}
-            className="inline-block cursor-pointer lg:hidden"
-          />
+          <div className="inline-block cursor-pointer lg:hidden">
+            <NavbarMobile />
+          </div>
         </div>
       </nav>
     </header>

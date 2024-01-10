@@ -10,7 +10,7 @@ function classNames(...classes) {
 
 const SwitchApps = () => {
   return (
-    <div className="max-container padding-container">
+    <section className="max-container padding-container" data-aos="fade-left">
       <h2 className="semibold-16 text-orange-50 flexStart mt-8 mb-8">
         Switch Apps
       </h2>
@@ -21,8 +21,7 @@ const SwitchApps = () => {
               key={category.title}
               className={({ selected }) =>
                 classNames(
-                  "w-auto rounded-full py-3 px-5 medium-16 md:semibold-16 leading-5 ",
-                  "bg-gray-20 focus:outline-none",
+                  "w-auto rounded-full py-px px-3 md:py-3 md:px-5 medium-16 md:semibold-16 leading-5 font-lota",
                   selected
                     ? "bg-blue-100 text-white"
                     : "text-blue-100 bg-gray-20"
@@ -42,7 +41,7 @@ const SwitchApps = () => {
               <div className="bg-gray-20 rounded-3xl flexCenter px-12 py-10">
                 <img src={posts.url} width="100%" height="auto" alt="" />
               </div>
-              <ul>
+              <ul data-aos="fade-up">
                 {posts.items.map((post) => (
                   <li
                     key={post.title}
@@ -59,7 +58,7 @@ const SwitchApps = () => {
           ))}
         </Tab.Panels>
       </Tab.Group>
-    </div>
+    </section>
   );
 };
 

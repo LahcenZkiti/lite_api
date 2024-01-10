@@ -5,8 +5,6 @@ import Numbers from '@/components/Numbers'
 import SwitchApps from '@/components/SwitchApps'
 import ThirdParty from '@/components/ThirdParty'
 import TrustedBy from '@/components/TrustedBy'
-import Image from 'next/image'
-import Link from 'next/link'
 
 export default function Home() {
   return (

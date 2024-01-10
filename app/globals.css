@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -17,17 +16,15 @@
     @apply text-gray-10 regular-14;
   }
 
+  h1, h2, h3 {
+    @apply font-lota;
+  }
+
   .btn_orange { 
-    @apply  bg-orange-50 px-[14px] py-[18px] text-white whitespace-nowrap rounded-lg h-10 flexCenter medium-16
+    @apply  bg-orange-50 px-[14px] py-[18px] text-white whitespace-nowrap rounded-md h-10 flexCenter medium-16
   }
   .btn_orange_small { 
-    @apply  text-white regular-14 flexCenter bg-orange-50 mt-6 px-5 py-3 rounded-lg h-10
-  }
-  .btn_orange { 
-    @apply  bg-orange-50 px-[14px] py-[18px] text-white rounded-lg
-  }
-  .btn_orange_small { 
-    @apply  bg-orange-50 px-[13px] py-[18px] text-white rounded-md
+    @apply  text-white regular-14 flexCenter bg-orange-50 px-5 py-3 rounded-lg h-10
   }
   .btn_blue { 
     @apply  bg-blue-100 px-3 py-4 text-white transition-all hover:bg-blue-50 rounded-md h-10 flexCenter medium-16
@@ -149,15 +146,4 @@
   .bold-16 {
     @apply text-[16px] font-[700];
   }
-}
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-.hide-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-.hide-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
 }

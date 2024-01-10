@@ -2,7 +2,7 @@ import React from "react";
 
 const Numbers = () => {
   return (
-    <div className="max-container padding-container flexCenter flex-col px-20 py-12 max-md:px-5">
+    <section className="max-container padding-container flexCenter flex-col px-20 py-12 max-md:px-5"  data-aos="zoom-in">
       <h2 className="text-orange-50 semibold-20 mt-10 max-md:mt-10">
         Numbers
       </h2>
@@ -40,7 +40,7 @@ const Numbers = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

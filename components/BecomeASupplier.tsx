@@ -2,7 +2,7 @@ import React from 'react'
 
 const BecomeASupplier = () => {
   return (
-    <div className="items-center bg-neutral-100 flex flex-col justify-center px-16 py-3.5 max-md:px-5">
+    <section className="items-center bg-neutral-100 flex flex-col justify-center px-16 py-3.5 max-md:px-5"  data-aos="fade-up">
       <div className="w-full max-container padding-container max-md:max-w-full">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[56%] max-md:w-full max-md:ml-0">
@@ -14,7 +14,7 @@ const BecomeASupplier = () => {
                 Donec sed erat ut magna suscipit mattis. Aliquam erat volutpat.
                 Morbi in orci risus. Donec pretium f
               </p>
-              <button type='button' className="btn_orange_small">
+              <button type='button' className="btn_orange_small mt-6">
                 Contact us
               </button>
             </span>
@@ -29,7 +29,7 @@ const BecomeASupplier = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

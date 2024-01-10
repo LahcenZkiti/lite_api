@@ -9,18 +9,21 @@ export const NAV_LINKS = [
                 title: 'Travel API', 
                 key: 'travel_api', 
                 description: 'Description', 
+                bgColor: 'bg-indigo-50', 
                 to: '/',
             },
             { 
                 title: 'Travel links', 
                 key: 'travel_links', 
                 description: 'Description',  
+                bgColor: 'bg-teal-500', 
                 to: '/' 
             },
             { 
                 title: 'Travel Switch', 
                 key: 'travel_switch', 
                 description: 'Description', 
+                bgColor: 'bg-red-500',  
                 to: '/' 
             },
         ]

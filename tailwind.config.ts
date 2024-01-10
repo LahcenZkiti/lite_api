@@ -45,6 +45,9 @@ const config: Config = {
       borderRadius: {
         '5xl': '40px',
       },
+      fontFamily: {
+        lota: ['var(--font-lota)'],
+      },
     },
   },
   plugins: [],
