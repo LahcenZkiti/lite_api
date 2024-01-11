@@ -7,7 +7,7 @@ const BecomeASupplier = () => {
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[56%] max-md:w-full max-md:ml-0">
             <span className="flex flex-col my-auto items-start max-md:max-w-full max-md:mt-10">
-              <h3 className="text-blue-100 text-3xl font-semibold tracking-tight self-stretch max-md:max-w-full">
+              <h3 className="text-3xl font-semibold tracking-tight self-stretch max-md:max-w-full">
                 How to become a supplier
               </h3>
               <p className="text-base leading-6 tracking-normal mt-1.5 max-w-[490px] max-md:max-w-full">

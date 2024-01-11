@@ -24,7 +24,7 @@ const ThirdParty = () => {
               data-aos="fade-right"
             >
               <div className="bg-indigo-500 flex grow flex-col items-center w-full pl-8 pr-14 pt-8 rounded-2xl max-md:max-w-full max-md:mt-2 max-md:px-5">
-                <h3 className="text-blue-100 semibold-24 tracking-tight self-stretch max-md:max-w-full">
+                <h3 className="semibold-24 tracking-tight self-stretch max-md:max-w-full">
                   Hotel Confirmation Number
                 </h3>
                 <p className="self-stretch mt-2 max-md:max-w-full">
@@ -46,7 +46,7 @@ const ThirdParty = () => {
               data-aos="fade-left"
             >
               <div className="bg-orange-60 flex grow flex-col items-center w-full pl-8 pr-14 pt-8 rounded-2xl max-md:max-w-full max-md:mt-2 max-md:px-5">
-                <h3 className="text-blue-100 semibold-24 tracking-tight self-stretch max-md:max-w-full">
+                <h3 className="semibold-24 tracking-tight self-stretch max-md:max-w-full">
                   Hotel mapping
                 </h3>
                 <p className="self-stretch w-[511px] max-w-full mt-2">
@@ -68,7 +68,7 @@ const ThirdParty = () => {
           className="bg-orange-20 self-stretch flex flex-col mt-2 pl-8 pr-20 pt-8 rounded-2xl items-end max-md:max-w-full max-md:px-5"
           data-aos="fade-up"
         >
-          <h3 className="text-blue-100 semibold-24 tracking-tight self-start max-md:max-w-full">
+          <h3 className="semibold-24 tracking-tight self-start max-md:max-w-full">
             Hotel transfers
           </h3>
           <p className="w-[511px] max-w-full mt-2 self-start">

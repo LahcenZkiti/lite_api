@@ -21,7 +21,7 @@ html, body {
   }
 
   h1, h2, h3 {
-    @apply font-lota;
+    @apply font-lota text-blue-100;
   }
 
   .btn_orange { 

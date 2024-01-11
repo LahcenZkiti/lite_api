@@ -13,7 +13,7 @@ const Hero = () => {
         data-aos-duration="1000"
       >
         <h1
-          className="text-blue-100 bold-32 lg:bold-40"
+          className="bold-32 lg:bold-40"
           data-aos="zoom-in-down"
           data-aos-duration="800"
         >
