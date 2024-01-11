@@ -16,14 +16,14 @@ export const NAV_LINKS = [
                 title: 'Travel links', 
                 key: 'travel_links', 
                 description: 'Description',  
-                bgColor: 'bg-teal-500', 
+                bgColor: 'bg-blue-100', 
                 to: '/' 
             },
             { 
                 title: 'Travel Switch', 
                 key: 'travel_switch', 
                 description: 'Description', 
-                bgColor: 'bg-red-500',  
+                bgColor: 'bg-orange-10',  
                 to: '/' 
             },
         ]

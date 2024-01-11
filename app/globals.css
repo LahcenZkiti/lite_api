@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 @layer utilities {
   p {
     letter-spacing: -0.14px;
