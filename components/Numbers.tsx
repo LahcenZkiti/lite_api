@@ -2,11 +2,11 @@ import React from "react";
 
 const Numbers = () => {
   return (
-    <section className="max-container padding-container flexCenter flex-col px-20 py-12 max-md:px-5"  data-aos="zoom-in">
-      <h2 className="text-orange-50 semibold-20 mt-10 max-md:mt-10">
+    <section className="max-container padding-container flexCenter flex-col px-20 py-12 max-md:px-5">
+      <h2 className="text-orange-50 semibold-20 mt-10 max-md:mt-10" data-aos="zoom-in" data-aos-duration="500">
         Numbers
       </h2>
-      <div className="max-w-full mt-8 mb-10 max-md:mb-10">
+      <div className="max-w-full mt-8 mb-10 max-md:mb-10" data-aos="zoom-in" data-aos-duration="1000">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[34%] max-md:w-full max-md:ml-0">
             <span className="flexCenter grow flex-col px-10 max-md:mt-10 max-md:px-5">

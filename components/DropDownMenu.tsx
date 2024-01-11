@@ -11,7 +11,7 @@ const DropDownMenu = ({ link }) => {
           <div>
             <Menu.Button className="medium-16 text-blue-100 flexCenter cursor-pointer transition-all">
               {link.label}
-              <ChevronDownIcon className={`h-4 w-4 ${open ? 'rotate-180 transition duration-350 transform' : ''}`} />
+              <ChevronDownIcon className={`h-4 w-4 transition-all ease-in-out duration-500 transform ${open ? '-rotate-180' : ''}`} />
             </Menu.Button>
           </div>
           <Transition

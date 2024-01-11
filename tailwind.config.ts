@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import colors from 'tailwindcss/colors'
 
 const config: Config = {
   content: [
@@ -9,6 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        ...colors,
         orange: {
           10: '#FFE7DA',
           20: '#FFF2D4',
@@ -17,11 +19,10 @@ const config: Config = {
           100: '#F3EDG7',
         },
         blue: {
-          10: '#ADD8E6',
-          50: '#251f5d',
           100: '#19172C',
           200: '#2C2A3D',
           300: '#3C3A4C',
+          400: '#251f5d',
         },
         gray: {
           10: '#696876',

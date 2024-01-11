@@ -31,7 +31,7 @@ html, body {
     @apply  text-white regular-14 flexCenter bg-orange-50 px-5 py-3 rounded-lg h-10
   }
   .btn_blue { 
-    @apply  bg-blue-100 px-3 py-4 text-white transition-all hover:bg-blue-50 rounded-md h-10 flexCenter medium-16
+    @apply  bg-blue-100 px-3 py-4 text-white transition-all duration-150 hover:bg-blue-400 rounded-md h-10 flexCenter medium-16
   }
   .btn_outline  { 
     @apply border border-gray-30 bg-white px-3 py-4 text-blue-100 rounded-md h-10 flexCenter medium-16

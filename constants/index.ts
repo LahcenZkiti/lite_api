@@ -16,7 +16,7 @@ export const NAV_LINKS = [
                 title: 'Travel links', 
                 key: 'travel_links', 
                 description: 'Description',  
-                bgColor: 'bg-blue-100', 
+                bgColor: 'bg-blue-50', 
                 to: '/' 
             },
             { 
@@ -45,41 +45,49 @@ export const NAV_LINKS = [
         alt: 'nuitee', 
         url: '/partners/nuitee.svg', 
         width: 100, 
+        duration: 10, 
     },
     {
         alt: 'skyscanner', 
         url: '/partners/skyscanner.svg',
         width: 150, 
+        duration: 200, 
     },
     {
         alt: 'agoda', 
         url: '/partners/agoda.svg',
         width: 100, 
+        duration: 400, 
     },
     {
         alt: 'webbeds', 
         url: '/partners/webbeds.svg',
         width: 100, 
+        duration: 600, 
     },
     {
         alt: 'hilton', 
         url: '/partners/hilton.svg',
         width: 100, 
+        duration: 800, 
     },
     {
         alt: 'getaroom', 
         url: '/partners/getaroom.svg',
         width: 100, 
+        duration: 1000, 
     },
     {
         alt: 'priceline', 
         url: '/partners/priceline.svg',
         width: 150, 
+        duration: 1200, 
     },
     {
         alt: 'partners', 
         url: '/partners/hotelbeds.svg',
         width: 150, 
+        duration: 1500, 
     },
     
   ];
@@ -89,24 +97,28 @@ export const NAV_LINKS = [
     {
       title: 'Inventory',
       icon: '/inventory_icon.svg',
+      duration: 200,
       description:
         'Donec sed erat ut magna suscipit mattis. Aliquam erat volutpat. Morbi in orci risus. Donec pretium f',
     },
     {
       title: 'Connections',
       icon: '/connections_icon.svg',
+      duration: 500,
       description:
         "Donec sed erat ut magna suscipit mattis. Aliquam erat volutpat. Morbi in orci risus. Donec pretium f",
     },
     {
       title: 'Bookings',
       icon: '/bookings_icon.svg',
+      duration: 800,
       description:
         'Donec sed erat ut magna suscipit mattis. Aliquam erat volutpat. Morbi in orci risus. Donec pretium f',
     },
     {
       title: 'Analytics',
       icon: '/analytics_icon.svg',
+      duration: 1200,
       description:
         'Donec sed erat ut magna suscipit mattis. Aliquam erat volutpat. Morbi in orci risus. Donec pretium f',
     },
